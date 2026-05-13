@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Geist+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #070a12;
+  --surface: #0d1120;
+  --surface2: #131826;
+  --surface3: #1a2035;
+  --border: rgba(255,255,255,0.06);
+  --border-bright: rgba(255,255,255,0.12);
+  --text: #e8ecf4;
+  --muted: #5a6a8a;
+  --muted2: #8898b8;
+  --sa: #818cf8; --sa-bright: #a5b4fc; --sa-glow: rgba(129,140,248,0.15); --sa-bg: rgba(129,140,248,0.06); --sa-border: rgba(129,140,248,0.2);
+  --ad: #f59e0b; --ad-bright: #fbbf24; --ad-glow: rgba(245,158,11,0.15); --ad-bg: rgba(245,158,11,0.06); --ad-border: rgba(245,158,11,0.2);
+  --us: #10b981; --us-bright: #34d399; --us-glow: rgba(16,185,129,0.15); --us-bg: rgba(16,185,129,0.06); --us-border: rgba(16,185,129,0.2);
+  --err: #f87171; --ok: #34d399; --err-bg: rgba(248,113,113,0.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
